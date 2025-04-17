@@ -1,0 +1,11 @@
+.truncate {
+  max-width: 1000px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//not the prettiest solution
+.mat-mdc-tooltip .mdc-tooltip__surface {
+  max-width: 1000px;
+}
