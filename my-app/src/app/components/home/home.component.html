@@ -1,5 +1,7 @@
-<div class="container">
-  <h1>Welcome</h1>
-
-  <button mat-button (click)="goToPage('devNotes')">Please take a look at example table</button>
-</div>
+<mat-toolbar class="home-toolbar">
+  <span><strong>Welcome</strong></span>
+  <span class="toolbar-spacer"></span>
+  <button mat-raised-button color="primary" (click)="goToPage('devNotes')">
+    Go to example table
+  </button>
+</mat-toolbar>

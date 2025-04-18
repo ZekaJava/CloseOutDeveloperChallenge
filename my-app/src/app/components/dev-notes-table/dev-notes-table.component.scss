@@ -1,11 +1,20 @@
+.example-table {
+  padding: 10px;
+}
+
+.mat-mdc-table {
+  border: 1px solid black !important;
+  box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.6);
+}
+
 .truncate {
-    max-width: 1000px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  //not the prettiest solution
-  .mat-mdc-tooltip .mdc-tooltip__surface {
-    max-width: 1000px;
-  }
+  max-width: 1200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//not the prettiest solution
+.mat-mdc-tooltip .mdc-tooltip__surface {
+  max-width: 1000px;
+}
